@@ -2,11 +2,9 @@ const driver = 'bob';
 
 console.log('this code was called');
 
-function calledWithExactly(driver, sentence) {
-  console.log(driver, sentence );
-}
+const calledWithExactly = console.log(driver, 'is the driver variable name');
 
-
+// function calledWithExactly()
 
 // 
 //   it('invokes the console.log with the `driver` variable as the first argument and `is the driver variable name` as the second argument', function () {
